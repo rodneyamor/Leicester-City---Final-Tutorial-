@@ -17,6 +17,14 @@ In this tutorial, we will look at how Leicester was able to clinch the title. We
 
 ## Collecting Data
 
+We will be scraping our data from various sources since most sources only cover a portion of what we need. For example, we will scrape one source for attacking data and another for defensive data.
+
+The Premier League website contains most the data that we need. However, it is difficult to get the data from the 2015/16 season using simple web scrapping since the website doesn't appear to be static. Rather, it appears that the data is loaded from a server which always defaults into the 2020/21 season. We will just copy the rest of the data that we need into an excel file and convert that into a CSV file.
+
+### Loading the data
+
+In order to organize our data, we will have different dataframes for each portion of the data. Thankfully, our data is already organized since we are already scrapping different websites for each portion of what we need. Each website will have its own dataframe. 
+
 ## Tidying the Data
 Three dataframes: attacking, defensive, misc (possesion, tackles, etc)
 
